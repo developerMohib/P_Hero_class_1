@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    background-color: aqua;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li {
+    padding: 5px;
+    list-style-type: none;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+h1 i{
+    color: aqua;
+    text-decoration: underline;
+}
+p {
+    max-width: 800px;
+    margin:10px auto 15px;
+    text-align: center;
+}
+p i{
+    color: aqua;
+}
+p strong{
+    color: red;
+}
+img{
+    max-width: 100%;
+}
+.blog{
+    text-align: center;
+}
+.blog img{
+    width: 400px;
+    height: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding: 10px 0px;
+    background-color: rgb(32, 32, 32);
+}
+.footer p{
+    color: white;
+}
